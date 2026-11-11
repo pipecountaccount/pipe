@@ -96,7 +96,6 @@ def resize_with_aspect_ratio(img, target_max_side):
         Image.LANCZOS
     )
 
-
 def reset_current_image():
     """次の画像に進むため、画像ごとの状態を初期化する"""
 
