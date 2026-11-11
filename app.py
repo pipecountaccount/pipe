@@ -94,3 +94,4 @@ def resize_with_aspect_ratio(img, target_max_side):
     return img.resize(
         (new_w, new_h),
         Image.LANCZOS
+    )
